@@ -5,8 +5,6 @@ now = datetime.datetime.now()
 precount=7200
 target = now + datetime.timedelta(seconds=precount)
 
-
-
 while now < target:
 	now = datetime.datetime.now()
 	T = target - now
