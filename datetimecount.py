@@ -11,8 +11,6 @@ while now < target:
 	now = datetime.datetime.now()
 	T = target - now
 	Tstring = str(T).split(".")[0]
-#	formatting1 = '<p>'
-#	formatting2 = '</p>'
 	wtxt = open('txt','w')
 	wtxt.write(Tstring)
 	wtxt.close()
