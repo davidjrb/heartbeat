@@ -22,6 +22,11 @@ crontab -e
 
 #55 10 * * * python3 /home/dj/heartbeat/OFF.py
 
-Install flask
+*Install flask
 
 Change default directory and permissions of apache
+
+See broken links and directories (XXX) in:
+counter.py
+index.html
+OFF.py
