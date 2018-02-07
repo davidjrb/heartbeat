@@ -30,3 +30,4 @@ See broken links and directories (XXX) in:
 counter.py
 index.html
 OFF.py
+Adjust desired timelapse in api.py
